@@ -1,0 +1,10 @@
+{
+    "sites":{
+        "abuseipdb": {
+            "url":"https://api.abuseipdb.com/api/v2/check",
+            "accept":"application/json",
+            "maxAgeInDays":"90",
+            "key":"9f533def58a6b7b10a1221c433b5d9eeaa41f92d354982952c69f57e321dbd1f768be086346225a3"
+        }
+    }
+}
