@@ -1,0 +1,101 @@
+{
+  "data": {
+    "id": "103.7.60.82",
+    "type": "ip_address",
+    "links": {
+      "self": "https://www.virustotal.com/api/v3/ip_addresses/103.7.60.82"
+    },
+    "attributes": {
+      "asn": 9541,
+      "continent": "AS",
+      "rdap": {
+        "object_class_name": "ip network",
+        "handle": "103.7.60.0 - 103.7.63.255",
+        "start_address": "103.7.60.0",
+        "end_address": "103.7.63.255",
+        "ip_version": "v4",
+        "name": "CYBERNET",
+        "type": "ALLOCATED PORTABLE",
+        "country": "PK",
+        "status": [
+          "active"
+        ],
+        "events": [
+          {
+            "event_action": "registration",
+            "event_date": "2012-03-15T23:57:27Z",
+            "event_actor": "",
+            "links": []
+          },
+          {
+            "event_action": "last changed",
+            "event_date": "2020-06-10T13:04:10Z",
+            "event_actor": "",
+            "links": []
+          }
+        ],
+        "rdap_conformance": [
+          "history_version_0",
+          "nro_rdap_profile_0",
+          "cidr0",
+          "rdap_level_0"
+        ],
+        "port43": "whois.apnic.net",
+        "cidr0_cidrs": [
+          {
+            "v4prefix": "103.7.60.0",
+            "length": 22,
+            "v6prefix": ""
+          }
+        ],
+        "remarks": [
+          {
+            "title": "description",
+            "description": [
+              "Cyber Internet Services Pakistan",
+              "A - 904 9th Floor Lakson Square Building No. 3",
+              "No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan"
+            ],
+            "links": [],
+            "type": ""
+          },
+          {
+            "title": "remarks",
+            "description": [
+              "--------------------------------------------------------",
+              "To report network abuse, please contact mnt-irt",
+              "For troubleshooting, please contact tech-c and admin-c",
+              "Report invalid contact via www.apnic.net/invalidcontact",
+              "--------------------------------------------------------"
+            ],
+            "links": [],
+            "type": ""
+          }
+        ],
+        "parent_handle": "",
+        "arin_originas0_originautnums": []
+      },
+      "as_owner": "Cyber Internet Services Pvt Ltd.",
+      "whois_date": 1771130521,
+      "last_modification_date": 1771276808,
+      "whois": "inetnum: 103.7.60.0 - 103.7.63.255\nnetname: CYBERNET\ndescr: Cyber Internet Services Pakistan\ndescr: A - 904 9th Floor Lakson Square Building No. 3\ndescr: No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan\ncountry: PK\norg: ORG-CISP3-AP\nadmin-c: AQ84-AP\ntech-c: AQ84-AP\nabuse-c: AC1727-AP\nstatus: ALLOCATED PORTABLE\nremarks: --------------------------------------------------------\nremarks: To report network abuse, please contact mnt-irt\nremarks: For troubleshooting, please contact tech-c and admin-c\nremarks: Report invalid contact via www.apnic.net/invalidcontact\nremarks: --------------------------------------------------------\nmnt-by: APNIC-HM\nmnt-lower: MAINT-PK-CYBERNET\nmnt-routes: MAINT-PK-CYBERNET\nmnt-irt: IRT-CYBERNET-PK\nlast-modified: 2020-06-10T13:04:10Z\nsource: APNIC\nirt: IRT-CYBERNET-PK\naddress: A904, 9th Floor,Lakson Bldg 3,Sarwar Shaheed Rd,Karachi-74200\ne-mail: noc-abuse@cyber.net.pk\nabuse-mailbox: noc-abuse@cyber.net.pk\nadmin-c: AQ84-AP\ntech-c: AQ84-AP\nauth: # Filtered\nremarks: noc-abuse@cyber.net.pk was validated on 2026-01-14\nmnt-by: MAINT-PK-AQ\nlast-modified: 2026-01-14T06:53:33Z\nsource: APNIC\norganisation: ORG-CISP3-AP\norg-name: Cyber Internet Services (Private) Limited\norg-type: LIR\ncountry: PK\naddress: A - 904 9th Floor Lakson Square Building No. 3\naddress: No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan\nphone: +92-21-38400654\nfax-no: +92-213-5680842\ne-mail: noc-abuse@cyber.net.pk\nmnt-ref: APNIC-HM\nmnt-by: APNIC-HM\nlast-modified: 2023-09-05T02:14:44Z\nsource: APNIC\nrole: ABUSE CYBERNETPK\ncountry: ZZ\naddress: A904, 9th Floor,Lakson Bldg 3,Sarwar Shaheed Rd,Karachi-74200\nphone: +000000000\ne-mail: noc-abuse@cyber.net.pk\nadmin-c: AQ84-AP\ntech-c: AQ84-AP\nnic-hdl: AC1727-AP\nremarks: Generated from irt object IRT-CYBERNET-PK\nremarks: noc-abuse@cyber.net.pk was validated on 2026-01-14\nabuse-mailbox: noc-abuse@cyber.net.pk\nmnt-by: APNIC-ABUSE\nlast-modified: 2026-01-14T06:54:03Z\nsource: APNIC\nperson: Amjad Qasmi\naddress: A904, 9th Floor,Lakson Bldg 3,Sarwar Shaheed Rd,Karachi-74200\ncountry: PK\nphone: +92-021-38400654\ne-mail: zhqasmi@cyber.net.pk\nnic-hdl: AQ84-AP\nabuse-mailbox: noc-abuse@cyber.net.pk\nmnt-by: MAINT-PK-AQ\nlast-modified: 2021-08-31T07:15:27Z\nsource: APNIC\nroute: 103.7.60.0/24\norigin: AS24440\ndescr: Cyber Internet Services Pakistan\n A - 904 9th Floor Lakson Square Building No. 3\n No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan\nmnt-by: MAINT-PK-CYBERNET\nlast-modified: 2016-10-18T11:43:12Z\nsource: APNIC\nroute: 103.7.60.0/24\norigin: AS9541\ndescr: Cyber Internet Services Pakistan\n A - 904 9th Floor Lakson Square Building No. 3\n No. 3, Sarwar Shaheed Road Karachi-74200 Pakistan\nmnt-by: MAINT-PK-CYBERNET\nlast-modified: 2018-05-03T07:11:20Z\nsource: APNIC\n",
+      "country": "PK",
+      "last_analysis_stats": {
+        "malicious": 10,
+        "suspicious": 0,
+        "undetected": 31,
+        "harmless": 52,
+        "timeout": 0
+      },
+      "regional_internet_registry": "APNIC",
+      "tags": [],
+      "total_votes": {
+        "harmless": 0,
+        "malicious": 1
+      },
+      "reputation": -11,
+      "last_analysis_date": 1771270189,
+      "network": "103.7.60.0/22"
+    }
+  }
+}
