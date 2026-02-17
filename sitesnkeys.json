@@ -5,6 +5,12 @@
             "accept":"application/json",
             "maxAgeInDays":"90",
             "key":"9f533def58a6b7b10a1221c433b5d9eeaa41f92d354982952c69f57e321dbd1f768be086346225a3"
+        },
+        "virustotal":{
+            "url":"https://www.virustotal.com/api/v3/ip_addresses/",
+            "accept":"application/json",
+            "key":"a4a69d1478996aa104681a5fd539fafe8c0ce3b89d01d3062b652bcdd5b59f38"
+
         }
     }
 }
