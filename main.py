@@ -4,9 +4,11 @@ import requests
 
 def main():
     print("Hello from osinter!") #DBP
-    ip_address=input("What IP do you want to search up?\nIP: ")
+    ip_address="103.7.60.82" #Test value
+    #ip_address=input("What IP do you want to search up?\nIP: ")
     abuseipdb_ip_call(ip_address)
     virustotal_ip_call(ip_address)
+    spamhaus_ip_call(ip_address)
 
 
 
@@ -37,7 +39,6 @@ def abuseipdb_ip_call(ip_address):
     decodedResponse = json.loads(response.text)
     print(f"AbuseIPDB IP Report:\n===============\n{json.dumps(decodedResponse, sort_keys=True, indent=4)}\n")
 
-
 def virustotal_ip_call(ip_address):
     with open("sitesnkeys.json", "r") as file: 
         data = json.load(file)
@@ -60,6 +61,18 @@ def virustotal_ip_call(ip_address):
     #Stripped output for DBP/use
     print(f"VirusTotal IP Report:\n===============\n{json.dumps(decodedResponse, sort_keys=True, indent=4)}\n")
 
+def spamhaus_ip_call(ip_address):
+    with open("sitesnkeys.json", "r") as file:
+        data = json.load(file)
+        url=data["sites"]["spamhaus"]["url"]
+        headers={
+            'Auth-Key': data["sites"]["spamhaus"]["key"]
+        }
+        payload={"query": "search_ioc", "search_term": ip_address, "exact_match":False}
+        response = requests.post(url, headers=headers, json=payload)
+        decodedResponse = json.loads(response.text)
+
+        print(f"Spamhaus IP Report: \n(Check to confirm IP is the desired one, Spamhaus has an inexact match when not searching explicit port numbers. Reports generated show all close matches, and may not be exact.)\n===============\n{json.dumps(decodedResponse, sort_keys=True, indent=4)}\n")
         
 
 

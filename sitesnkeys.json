@@ -11,6 +11,10 @@
             "accept":"application/json",
             "key":"a4a69d1478996aa104681a5fd539fafe8c0ce3b89d01d3062b652bcdd5b59f38"
 
+        },
+        "spamhaus":{
+            "url":"https://threatfox-api.abuse.ch/api/v1/",
+            "key":"b4eec6e85575a8f777fa51ebe8858d5976fd0ae260f9ecb6"
         }
     }
 }
